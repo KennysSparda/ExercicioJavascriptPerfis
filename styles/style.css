@@ -1,0 +1,27 @@
+:root {
+    --primary:darkslateblue;
+    --main-background: #a9a9a9;
+    --container-background: #f9f9f9;
+}
+
+body {
+    background: var(--main-background);
+}
+
+#main-container {
+    color: var(--primary);
+    background: var(--container-background);
+    text-align: center;
+    height: 300px;
+    width: 500px;
+    margin: 10% auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#perfil {
+    height: 200px;
+    width: 200px;
+    border: 4px white solid;
+    border-radius: 50%;
+}
